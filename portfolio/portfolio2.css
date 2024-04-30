@@ -1,0 +1,148 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for header section */
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #2c3e50;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Styles for body section */
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.body h1 {
+    font-size: 3em;
+    color: #8ae7df;
+    margin-bottom: 20px;
+}
+
+.demo1 {
+    color: #f39c12;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.demo2 {
+    color: #64b8cd;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.button-lrn, .button-hire {
+    background: #3498db;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.button-lrn:hover, .button-hire:hover {
+    background-color: #2980b9;
+}
+
+/* Styles for image section */
+.image {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styles for section boxes */
+section {
+    background-color: #a2e8e1;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+ul li:before {
+    content: "\2022";
+    color: #f39c12;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
